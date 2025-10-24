@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>Pusat Kesehatan & Kebugaran - Panduan Gaya Hidup Modern</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" crossorigin href="/assets/index-CnGdHnNG.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <div class="header-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="header-text">
+                <h1>Pusat Kesehatan & Kebugaran</h1>
+                <p>Panduan lengkap untuk gaya hidup yang lebih sehat</p>
+            </div>
+        </div>
+        <div class="header-wave"></div>
+    </header>
+
+    <!-- Modern Navigation -->
+    <nav class="modern-nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-item active" data-section="home">
+                <i class="fas fa-home"></i>
+                <span>Beranda</span>
+            </a>
+            <a href="#info" class="nav-item" data-section="info">
+                <i class="fas fa-info-circle"></i>
+                <span>Info Kesehatan</span>
+            </a>
+            <a href="#quiz" class="nav-item" data-section="quiz">
+                <i class="fas fa-question-circle"></i>
+                <span>Kuis</span>
+            </a>
+            <a href="#references" class="nav-item" data-section="references">
+                <i class="fas fa-book"></i>
+                <span>Referensi</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Home Section with Video -->
+        <section id="home" class="home-section">
+            <div class="video-wrapper">
+                <iframe id="youtube-video" 
+                        src="https://www.youtube.com/embed/wkBaGJ7hT9M?autoplay=1&mute=0&controls=1&showinfo=0&rel=0" 
+                        title="Video Kesehatan & Kebugaran"
+                        allowfullscreen>
+                </iframe>
+                <div class="video-overlay">
+                    <div class="overlay-content">
+                        <h2 class="video-title">Transformasi Kesehatan Anda</h2>
+                        <p class="video-subtitle">Temukan rahasia hidup lebih sehat dan bahagia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Health Information Section -->
+        <section id="info" class="content-section">
+            <div class="section-header">
+                <h2><i class="fas fa-heartbeat"></i>Informasi Kesehatan</h2>
+                <p>Panduan lengkap untuk membantu Anda memahami dan meningkatkan kesehatan</p>
+            </div>
+            
+            <div class="cards-grid">
+                <!-- Obesity Card -->
+                <div class="modern-card">
+                    <div class="card-header">
+                        <div class="card-icon obesity">
+                            <i class="fas fa-weight"></i>
+                        </div>
+                        <div class="card-badge important">Penting</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Memahami Obesitas</h3>
+                        <p>Obesitas adalah kondisi kesehatan kompleks yang mempengaruhi jutaan orang di seluruh dunia. Pelajari tentang penyebab, risiko, dan strategi pengelolaan yang efektif untuk menjaga berat badan yang sehat.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="learn-more-btn" onclick="window.open('https://keslan.kemkes.go.id/unduhan/KMK%20No.%20HK.01.07-MENKES-509-2025.pdf', '_blank')">
+                            <i class="fas fa-arrow-right"></i>
+                            Pelajari Lebih Lanjut
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Nutrition Card -->
+                <div class="modern-card">
+                    <div class="card-header">
+                        <div class="card-icon nutrition">
+                            <i class="fas fa-apple-alt"></i>
+                        </div>
+                        <div class="card-badge recommended">Direkomendasikan</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Nutrisi Seimbang</h3>
+                        <p>Temukan dasar-dasar nutrisi yang tepat, termasuk nutrisi penting, kontrol porsi, dan perencanaan makanan untuk kesehatan dan energi yang optimal.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="learn-more-btn" onclick="window.open('https://keslan.kemkes.go.id/unduhan/KMK%20No.%20HK.01.07-MENKES-509-2025.pdf', '_blank')">
+                            <i class="fas fa-arrow-right"></i>
+                            Pelajari Lebih Lanjut
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Physical Activity Card -->
+                <div class="modern-card">
+                    <div class="card-header">
+                        <div class="card-icon activity">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <div class="card-badge active">Aktif</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Aktivitas Fisik</h3>
+                        <p>Olahraga teratur sangat penting untuk menjaga kesehatan yang baik. Jelajahi berbagai jenis aktivitas, rutinitas latihan, dan tips untuk tetap termotivasi.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="learn-more-btn" onclick="window.open('https://keslan.kemkes.go.id/unduhan/KMK%20No.%20HK.01.07-MENKES-509-2025.pdf', '_blank')">
+                            <i class="fas fa-arrow-right"></i>
+                            Pelajari Lebih Lanjut
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Health Tips Card -->
+                <div class="modern-card">
+                    <div class="card-header">
+                        <div class="card-icon tips">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="card-badge tips">Tips</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Tips Kesehatan Harian</h3>
+                        <div class="tips-list">
+                            <div class="tip-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Minum minimal 8 gelas air setiap hari</span>
+                            </div>
+                            <div class="tip-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Tidur berkualitas 7-9 jam setiap malam</span>
+                            </div>
+                            <div class="tip-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Istirahat rutin dari waktu layar</span>
+                            </div>
+                            <div class="tip-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Praktikkan mindfulness dan manajemen stres</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="learn-more-btn" onclick="window.open('https://keslan.kemkes.go.id/unduhan/KMK%20No.%20HK.01.07-MENKES-509-2025.pdf', '_blank')">
+                            <i class="fas fa-arrow-right"></i>
+                            Tips Lainnya
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz" class="content-section">
+            <div class="section-header">
+                <h2><i class="fas fa-brain"></i>Kuis Pengetahuan Kesehatan</h2>
+                <p>Uji pemahaman Anda tentang konsep kesehatan dan kebugaran</p>
+            </div>
+
+            <div class="quiz-container">
+                <!-- Question 1 -->
+                <div class="quiz-card">
+                    <div class="question-number">Pertanyaan 1</div>
+                    <h3>Berapa asupan air harian yang direkomendasikan untuk orang dewasa?</h3>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">A</div>
+                            <div class="option-text">4-6 gelas per hari</div>
+                        </div>
+                        <div class="quiz-option" data-correct="true">
+                            <div class="option-letter">B</div>
+                            <div class="option-text">8-10 gelas per hari</div>
+                        </div>
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">C</div>
+                            <div class="option-text">12-15 gelas per hari</div>
+                        </div>
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">D</div>
+                            <div class="option-text">2-3 gelas per hari</div>
+                        </div>
+                    </div>
+                    <button class="show-answer-btn">
+                        <i class="fas fa-eye"></i>
+                        Tampilkan Jawaban
+                    </button>
+                    <div class="quiz-answer">
+                        <div class="answer-content">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <strong>Jawaban Benar: B - 8-10 gelas per hari</strong>
+                                <p>Rekomendasi umum adalah sekitar 8 gelas (64 ons) air per hari, meskipun kebutuhan individu dapat bervariasi berdasarkan tingkat aktivitas, iklim, dan kesehatan secara keseluruhan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="quiz-card">
+                    <div class="question-number">Pertanyaan 2</div>
+                    <h3>Berapa menit olahraga sedang yang harus dilakukan orang dewasa per minggu?</h3>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">A</div>
+                            <div class="option-text">75 menit</div>
+                        </div>
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">B</div>
+                            <div class="option-text">100 menit</div>
+                        </div>
+                        <div class="quiz-option" data-correct="true">
+                            <div class="option-letter">C</div>
+                            <div class="option-text">150 menit</div>
+                        </div>
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">D</div>
+                            <div class="option-text">300 menit</div>
+                        </div>
+                    </div>
+                    <button class="show-answer-btn">
+                        <i class="fas fa-eye"></i>
+                        Tampilkan Jawaban
+                    </button>
+                    <div class="quiz-answer">
+                        <div class="answer-content">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <strong>Jawaban Benar: C - 150 menit</strong>
+                                <p>WHO dan CDC merekomendasikan minimal 150 menit aktivitas aerobik intensitas sedang per minggu, atau 75 menit aktivitas intensitas tinggi, ditambah aktivitas penguatan otot dua kali seminggu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="quiz-card">
+                    <div class="question-number">Pertanyaan 3</div>
+                    <h3>Nutrisi mana yang merupakan sumber energi utama tubuh?</h3>
+                    <div class="quiz-options">
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">A</div>
+                            <div class="option-text">Protein</div>
+                        </div>
+                        <div class="quiz-option" data-correct="true">
+                            <div class="option-letter">B</div>
+                            <div class="option-text">Karbohidrat</div>
+                        </div>
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">C</div>
+                            <div class="option-text">Lemak</div>
+                        </div>
+                        <div class="quiz-option" data-correct="false">
+                            <div class="option-letter">D</div>
+                            <div class="option-text">Vitamin</div>
+                        </div>
+                    </div>
+                    <button class="show-answer-btn">
+                        <i class="fas fa-eye"></i>
+                        Tampilkan Jawaban
+                    </button>
+                    <div class="quiz-answer">
+                        <div class="answer-content">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <strong>Jawaban Benar: B - Karbohidrat</strong>
+                                <p>Karbohidrat adalah sumber energi yang disukai dan paling efisien untuk tubuh. Mereka dipecah menjadi glukosa, yang memberi bahan bakar pada sel-sel kita, terutama sel-sel otak.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section id="references" class="content-section">
+            <div class="section-header">
+                <h2><i class="fas fa-graduation-cap"></i>Referensi & Sumber Daya</h2>
+                <p>Sumber terpercaya untuk informasi kesehatan dan kebugaran</p>
+            </div>
+
+            <div class="references-grid">
+                <div class="reference-card">
+                    <div class="ref-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Organisasi Kesehatan Dunia</h3>
+                    <p>Pedoman kesehatan global dan rekomendasi dari otoritas kesehatan internasional terkemuka.</p>
+                    <a href="https://www.who.int" class="ref-link" target="_blank" rel="noopener">
+                        <i class="fas fa-external-link-alt"></i>
+                        Kunjungi WHO
+                    </a>
+                </div>
+
+                <div class="reference-card">
+                    <div class="ref-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>Kementerian Kesehatan RI</h3>
+                    <p>Informasi kesehatan komprehensif dan keahlian medis dari Kementerian Kesehatan Republik Indonesia.</p>
+                    <a href="https://www.kemkes.go.id" class="ref-link" target="_blank" rel="noopener">
+                        <i class="fas fa-external-link-alt"></i>
+                        Kunjungi Kemenkes
+                    </a>
+                </div>
+
+                <div class="reference-card">
+                    <div class="ref-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Pedoman Kesehatan CDC</h3>
+                    <p>Rekomendasi kesehatan berbasis bukti dan informasi pencegahan penyakit dari CDC.</p>
+                    <a href="https://www.cdc.gov" class="ref-link" target="_blank" rel="noopener">
+                        <i class="fas fa-external-link-alt"></i>
+                        Kunjungi CDC
+                    </a>
+                </div>
+
+                <div class="reference-card">
+                    <div class="ref-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Gizi Seimbang Indonesia</h3>
+                    <p>Informasi nutrisi berbasis sains dan pedoman diet untuk kebiasaan makan sehat di Indonesia.</p>
+                    <a href="https://www.p2ptm.kemkes.go.id" class="ref-link" target="_blank" rel="noopener">
+                        <i class="fas fa-external-link-alt"></i>
+                        Kunjungi P2PTM
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modern Footer -->
+    <footer class="modern-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <i class="fas fa-heart"></i>
+                    <span>Pusat Kesehatan & Kebugaran</span>
+                </div>
+                <p>Memberdayakan individu untuk membuat keputusan yang tepat tentang kesehatan dan kebugaran mereka melalui informasi yang dapat diandalkan dan panduan praktis.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Beranda</a>
+                <a href="#info">Info Kesehatan</a>
+                <a href="#quiz">Kuis</a>
+                <a href="#references">Referensi</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pusat Kesehatan & Kebugaran. Semua hak dilindungi. | Dirancang untuk tujuan edukasi.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+<script src="https://public-frontend-cos.metadl.com/commonfile/appPlugins-prod-1757257819217.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script></body>
+
+</html>
